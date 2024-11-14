@@ -1,0 +1,136 @@
+[2024:11:14:23:24:34]: Info: Sunshine version: 0.23.1
+[2024:11:14:23:24:34]: Info: Found display [wayland-1]
+[2024:11:14:23:24:34]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2024:11:14:23:24:34]: Info: Found interface: wl_output(48) version 4
+[2024:11:14:23:24:34]: Warning: Missing Wayland wire for wlr-export-dmabuf
+[2024:11:14:23:24:34]: Info: /dev/dri/card1 -> nvidia-drm
+[2024:11:14:23:24:34]: Info: Found display [wayland-1]
+[2024:11:14:23:24:34]: Info: Found display [wayland-1]
+[2024:11:14:23:24:34]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2024:11:14:23:24:34]: Info: Found interface: wl_output(48) version 4
+[2024:11:14:23:24:34]: Info: Resolution: 1920x1080
+[2024:11:14:23:24:34]: Info: Name: DP-1
+[2024:11:14:23:24:34]: Info: Found monitor: SKYDATA S.P.A. F24G3 0x00000001 (DP-1)
+[2024:11:14:23:24:34]: Info: Offset: 0x0
+[2024:11:14:23:24:34]: Info: Logical size: 1920x1080
+[2024:11:14:23:24:34]: Info: -------- Start of KMS monitor list --------
+[2024:11:14:23:24:34]: Info: Monitor 0 is DP-1: SKYDATA S.P.A. F24G3 0x00000001 (DP-1)
+[2024:11:14:23:24:34]: Info: --------- End of KMS monitor list ---------
+[2024:11:14:23:24:34]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2024:11:14:23:24:34]: Info: Trying encoder [nvenc]
+[2024:11:14:23:24:34]: Info: Screencasting with KMS
+[2024:11:14:23:24:34]: Info: /dev/dri/card1 -> nvidia-drm
+[2024:11:14:23:24:34]: Info: Found monitor for DRM screencasting
+[2024:11:14:23:24:34]: Info: Found connector ID [106]
+[2024:11:14:23:24:34]: Info: Found cursor plane [53]
+[2024:11:14:23:24:34]: Warning: Attempting to use NVENC without CUDA support. Reverting back to GPU -> RAM -> GPU
+[2024:11:14:23:24:34]: Info: /dev/dri/card1 -> nvidia-drm
+[2024:11:14:23:24:34]: Info: Found monitor for DRM screencasting
+[2024:11:14:23:24:34]: Info: Found connector ID [106]
+[2024:11:14:23:24:34]: Info: Found cursor plane [53]
+[2024:11:14:23:24:34]: Info: System tray created
+[2024:11:14:23:24:34]: Info: SDR color coding [Rec. 601]
+[2024:11:14:23:24:34]: Info: Color depth: 8-bit
+[2024:11:14:23:24:34]: Info: Color range: [JPEG]
+[2024:11:14:23:24:35]: Info: SDR color coding [Rec. 601]
+[2024:11:14:23:24:35]: Info: Color depth: 8-bit
+[2024:11:14:23:24:35]: Info: Color range: [JPEG]
+[2024:11:14:23:24:35]: Info: SDR color coding [Rec. 601]
+[2024:11:14:23:24:35]: Info: Color depth: 8-bit
+[2024:11:14:23:24:35]: Info: Color range: [JPEG]
+[2024:11:14:23:24:35]: Warning: [av1_nvenc @ 0x5df15c95e5c0] Codec not supported
+[2024:11:14:23:24:35]: Error: [av1_nvenc @ 0x5df15c95e5c0] Provided device doesn't support required NVENC features
+[2024:11:14:23:24:36]: Error: Could not open codec [av1_nvenc]: 函数未实现
+[2024:11:14:23:24:36]: Info: Screencasting with KMS
+[2024:11:14:23:24:36]: Info: /dev/dri/card1 -> nvidia-drm
+[2024:11:14:23:24:36]: Info: Found monitor for DRM screencasting
+[2024:11:14:23:24:36]: Info: Found connector ID [106]
+[2024:11:14:23:24:36]: Info: Found cursor plane [53]
+[2024:11:14:23:24:36]: Warning: Attempting to use NVENC without CUDA support. Reverting back to GPU -> RAM -> GPU
+[2024:11:14:23:24:36]: Info: /dev/dri/card1 -> nvidia-drm
+[2024:11:14:23:24:36]: Info: Found monitor for DRM screencasting
+[2024:11:14:23:24:36]: Info: Found connector ID [106]
+[2024:11:14:23:24:36]: Info: Found cursor plane [53]
+[2024:11:14:23:24:36]: Info: SDR color coding [Rec. 709]
+[2024:11:14:23:24:36]: Info: Color depth: 10-bit
+[2024:11:14:23:24:36]: Info: Color range: [JPEG]
+[2024:11:14:23:24:36]: Info: 
+[2024:11:14:23:24:36]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2024:11:14:23:24:36]: Info: 
+[2024:11:14:23:24:36]: Info: Found H.264 encoder: h264_nvenc [nvenc]
+[2024:11:14:23:24:36]: Info: Found HEVC encoder: hevc_nvenc [nvenc]
+[2024:11:14:23:24:36]: Error: Failed to create client: Daemon not running
+[2024:11:14:23:24:36]: Info: Configuration UI available at [https://localhost:47990]
+[2024:11:14:23:24:45]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2024:11:14:23:24:45]: Info: Trying encoder [nvenc]
+[2024:11:14:23:24:45]: Info: Screencasting with KMS
+[2024:11:14:23:24:45]: Info: /dev/dri/card1 -> nvidia-drm
+[2024:11:14:23:24:45]: Info: Found monitor for DRM screencasting
+[2024:11:14:23:24:45]: Info: Found connector ID [106]
+[2024:11:14:23:24:45]: Info: Found cursor plane [53]
+[2024:11:14:23:24:45]: Warning: Attempting to use NVENC without CUDA support. Reverting back to GPU -> RAM -> GPU
+[2024:11:14:23:24:45]: Info: /dev/dri/card1 -> nvidia-drm
+[2024:11:14:23:24:45]: Info: Found monitor for DRM screencasting
+[2024:11:14:23:24:45]: Info: Found connector ID [106]
+[2024:11:14:23:24:45]: Info: Found cursor plane [53]
+[2024:11:14:23:24:45]: Info: SDR color coding [Rec. 601]
+[2024:11:14:23:24:45]: Info: Color depth: 8-bit
+[2024:11:14:23:24:45]: Info: Color range: [JPEG]
+[2024:11:14:23:24:45]: Info: SDR color coding [Rec. 601]
+[2024:11:14:23:24:45]: Info: Color depth: 8-bit
+[2024:11:14:23:24:45]: Info: Color range: [JPEG]
+[2024:11:14:23:24:46]: Info: SDR color coding [Rec. 601]
+[2024:11:14:23:24:46]: Info: Color depth: 8-bit
+[2024:11:14:23:24:46]: Info: Color range: [JPEG]
+[2024:11:14:23:24:46]: Warning: [av1_nvenc @ 0x7f10e43cbb40] Codec not supported
+[2024:11:14:23:24:46]: Error: [av1_nvenc @ 0x7f10e43cbb40] Provided device doesn't support required NVENC features
+[2024:11:14:23:24:46]: Error: Could not open codec [av1_nvenc]: 函数未实现
+[2024:11:14:23:24:46]: Info: Screencasting with KMS
+[2024:11:14:23:24:46]: Info: /dev/dri/card1 -> nvidia-drm
+[2024:11:14:23:24:46]: Info: Found monitor for DRM screencasting
+[2024:11:14:23:24:46]: Info: Found connector ID [106]
+[2024:11:14:23:24:46]: Info: Found cursor plane [53]
+[2024:11:14:23:24:46]: Warning: Attempting to use NVENC without CUDA support. Reverting back to GPU -> RAM -> GPU
+[2024:11:14:23:24:46]: Info: /dev/dri/card1 -> nvidia-drm
+[2024:11:14:23:24:46]: Info: Found monitor for DRM screencasting
+[2024:11:14:23:24:46]: Info: Found connector ID [106]
+[2024:11:14:23:24:46]: Info: Found cursor plane [53]
+[2024:11:14:23:24:46]: Info: SDR color coding [Rec. 709]
+[2024:11:14:23:24:46]: Info: Color depth: 10-bit
+[2024:11:14:23:24:46]: Info: Color range: [JPEG]
+[2024:11:14:23:24:46]: Info: 
+[2024:11:14:23:24:46]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2024:11:14:23:24:46]: Info: 
+[2024:11:14:23:24:46]: Info: Found H.264 encoder: h264_nvenc [nvenc]
+[2024:11:14:23:24:46]: Info: Found HEVC encoder: hevc_nvenc [nvenc]
+[2024:11:14:23:24:46]: Info: Executing [Desktop]
+[2024:11:14:23:24:47]: Info: CLIENT CONNECTED
+[2024:11:14:23:24:47]: Info: /dev/dri/card1 -> nvidia-drm
+[2024:11:14:23:24:47]: Info: Found display [wayland-1]
+[2024:11:14:23:24:47]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2024:11:14:23:24:47]: Info: Found interface: wl_output(48) version 4
+[2024:11:14:23:24:47]: Info: Resolution: 1920x1080
+[2024:11:14:23:24:47]: Info: Name: DP-1
+[2024:11:14:23:24:47]: Info: Found monitor: SKYDATA S.P.A. F24G3 0x00000001 (DP-1)
+[2024:11:14:23:24:47]: Info: Offset: 0x0
+[2024:11:14:23:24:47]: Info: Logical size: 1920x1080
+[2024:11:14:23:24:47]: Info: -------- Start of KMS monitor list --------
+[2024:11:14:23:24:47]: Info: Monitor 0 is DP-1: SKYDATA S.P.A. F24G3 0x00000001 (DP-1)
+[2024:11:14:23:24:47]: Info: --------- End of KMS monitor list ---------
+[2024:11:14:23:24:47]: Info: Screencasting with KMS
+[2024:11:14:23:24:47]: Info: /dev/dri/card1 -> nvidia-drm
+[2024:11:14:23:24:47]: Info: Found monitor for DRM screencasting
+[2024:11:14:23:24:47]: Info: Found connector ID [106]
+[2024:11:14:23:24:47]: Info: Found cursor plane [53]
+[2024:11:14:23:24:47]: Warning: Attempting to use NVENC without CUDA support. Reverting back to GPU -> RAM -> GPU
+[2024:11:14:23:24:47]: Info: /dev/dri/card1 -> nvidia-drm
+[2024:11:14:23:24:47]: Info: Found monitor for DRM screencasting
+[2024:11:14:23:24:47]: Info: Found connector ID [106]
+[2024:11:14:23:24:47]: Info: Found cursor plane [53]
+[2024:11:14:23:24:47]: Info: SDR color coding [Rec. 601]
+[2024:11:14:23:24:47]: Info: Color depth: 8-bit
+[2024:11:14:23:24:47]: Info: Color range: [MPEG]
+[2024:11:14:23:24:47]: Info: Setting default sink to: [sink-sunshine-stereo]
+[2024:11:14:23:24:47]: Info: Found default monitor by name: sink-sunshine-stereo.monitor
+[2024:11:14:23:31:13]: Info: 10.135.4.219: Ping Timeout
+[2024:11:14:23:31:13]: Info: Setting default sink to: [alsa_output.usb-Generic_USB_Audio-00.analog-stereo]

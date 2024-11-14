@@ -1,0 +1,16 @@
+{
+    "username": "sunshine",
+    "salt": "BvMIj6uVyaUTyTmK",
+    "password": "C6A4829E4E0EE64B6A664A38268550D0AA8F94A694BD68AFCB15B2947363C121",
+    "root": {
+        "uniqueid": "A623A3A9-64FB-2928-8618-88E72833509D",
+        "devices": [
+            {
+                "uniqueid": "0123456789ABCDEF",
+                "certs": [
+                    "-----BEGIN CERTIFICATE-----\nMIICvzCCAaegAwIBAgIBADANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDDBhOVklE\nSUEgR2FtZVN0cmVhbSBDbGllbnQwHhcNMjQwODE1MTc0MTE1WhcNNDQwODEwMTc0\nMTE1WjAjMSEwHwYDVQQDDBhOVklESUEgR2FtZVN0cmVhbSBDbGllbnQwggEiMA0G\nCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDrfwTjAsOq+vPQElm7ZXKzotzAd48\n9YJ1eFjZ+6SY9vlslnezEn6ltXcTGI5j2xETA3t3Q3FChlreCRI5Vmhrwf1JTAxG\n\/N9o+Lz44ots7GQunr3ITlgiTh+3kJnyqDtaTlgWYvng9bG4ScOhMzT4gOD15hNI\n0HCuHk+Yw+5FVlaNzDCLtot3RLpV1XGu\/TFxc7h1G7ZAzRsqfrjoHVLicU\/ZaAaX\nHgPVEDW+56lUoQPlWghaQ9wp9O\/sfKd8j2cUc3QFmjLwpb+wqzJQCFJ+BDp\/1ALK\nmvqczVER5tEethY6fqMeoFnrGNz0kZTpnTMNz04lR2DKolj3xvoyFYQRAgMBAAEw\nDQYJKoZIhvcNAQELBQADggEBAFrvdETbmbj0k3uVRI5g6RfGu1dMLRHgBiVTqvih\nRNohwFQIV2RwNiQkA\/1NtPTTTaIhjh\/49wslSDnfjEmIgpH96CEOyoglOpu\/bOc\/\nCzte4o5ATRbURJlPhOYLu6jObze+oSPaMb0PES2luVMrk2FTcfTEc4+aM5qJoso4\nfQ6zY5agIipQD1bdKl\/2ZfBL2CtaZRDAx8nW50Cbzk2WMP8Wg3lWn\/vfhzJawKEi\nq15N+NOkT3QqyhyuUM16drEYJc1QnYLXQcZQynSR792Q80PS8PtG69gHH\/ghIel8\nUm+VrkcfNpxUqSdgW7V32a\/e8yWqIEHleZZWXpt0dW++F5k=\n-----END CERTIFICATE-----\n"
+                ]
+            }
+        ]
+    }
+}

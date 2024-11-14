@@ -97,7 +97,7 @@ const getLyrics = async (trackTitle, trackArtist) => {
         const url = `http://10.132.99.22:28883/api/v1/lyrics/single?artist=${encodeURIComponent(trackArtist)}&title=${encodeURIComponent(trackTitle)}`
         const response = await execAsync(['curl', '-s', url]);
         const lyricsText = response.trim();
-        
+
         if (lyricsText === "Lyrics not found.") {
             return [{ time: 0, text: "Lyrics not found." }];
         }
@@ -190,7 +190,7 @@ export default () => {
                 label.label = `${title} • ${artist}`;
                 // 获取并解析歌词
                 const fetchedLyrics = await getLyrics(title, artist);
-                
+
                 // 如果歌词找到，则显示歌词，否则显示标题
                 if (fetchedLyrics.length > 1 && fetchedLyrics[0].text !== "Lyrics not found.") {
                     lyricsData = fetchedLyrics; // 更新歌词数据
@@ -199,13 +199,18 @@ export default () => {
                 } else {
                     label.label = `${title} • ${artist}`; // 未找到歌词，显示标题
                 }
-            } else
+            } else {
                 label.label = 'No media';
-            self.poll(100, () => {
+            }
+            self.poll(200, () => {
                 const mpris = Mpris.getPlayer('');
                 if (mpris && lyricsData.length > 1 && lyricsData[0].text !== "Lyrics not found." && lyricsData[currentLyricIndex].text !== "纯音乐，请欣赏") {
                     const currentTime = mpris.position;
                     label.label = `${updateLyricsDisplay(currentTime)}`;
+                } else {
+                    const title = trimTrackTitle(mpris.trackTitle);
+                    const artist = mpris.trackArtists.join(', ');
+                    label.label = `${title} • ${artist}`;
                 }
             });
         }),
